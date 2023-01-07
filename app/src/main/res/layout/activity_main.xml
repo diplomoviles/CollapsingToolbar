@@ -7,7 +7,7 @@
     android:background="@drawable/gradiente_azul"
     tools:context=".MainActivity">
 
-    <com.google.android.material.appbar.AppBarLayout
+    <!--<com.google.android.material.appbar.AppBarLayout
         android:id="@+id/appbar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -47,7 +47,11 @@
 
         </com.google.android.material.appbar.CollapsingToolbarLayout>
 
-    </com.google.android.material.appbar.AppBarLayout>
+    </com.google.android.material.appbar.AppBarLayout>-->
+
+    <include
+        android:id="@+id/ctLayout"
+        layout="@layout/collapsingtoolbar"/>
 
     <androidx.core.widget.NestedScrollView
         android:layout_width="match_parent"
@@ -134,7 +138,7 @@
         android:src="@drawable/ic_shoppingcar"
         app:backgroundTint="#E91E63"
         app:fabSize="normal"
-        app:layout_anchor="@id/appbar"
+        app:layout_anchor="@id/ctLayout"
         app:layout_anchorGravity="end|bottom"
         app:tint="@color/white" />
 
