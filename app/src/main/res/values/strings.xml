@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Amaury</string>
+    <string name="saludo">Hello World!</string>
+    <string name="desc">- Pantalla OLED de 7 pulgadas (17.78 cm). Disfruta de colores brillantes y contrastes definidos en una pantalla que hace que los colores sean más intensos.\n\n- Soporte ajustable y amplio. Ajusta el soporte para encontrar ángulo de vista en el modo semiportátil\n\n- 64 GB de almacenamiento interno. Guarda los juegos en tu consola con 64 GB de almacenamiento interno.\n\n- Audio mejorado. Disfruta de un audio superior en los modos portátil y semiportátil con los altavoces de la consola.\n\n- Compatible con todos los controles Joy-ConTM y programas de Nintendo Switch.\n\n- Variante de importación, la caja puede tener descripciones en el idioma de origen o contener un adaptador de toma de corriente.</string>
+</resources>
